@@ -8,8 +8,8 @@ import requests
 import biotite.structure.io as bsio
 
 #st.set_page_config(layout = 'wide')
-st.sidebar.title('🎈 ESMFold')
-st.sidebar.write('[*ESMFold*](https://esmatlas.com/about) is an end-to-end single sequence protein structure predictor based on the ESM-2 language model.')
+st.sidebar.title('ProteiPredict')
+st.sidebar.write('[*ProteiPredict*](https://esmatlas.com/about) is an end-to-end single sequence protein structure predictor based on the ESM-2 language model.')
 
 # stmol
 def render_mol(pdb):
